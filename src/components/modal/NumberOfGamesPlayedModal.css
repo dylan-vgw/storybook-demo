@@ -1,0 +1,22 @@
+.modal {
+  background-color: grey;
+  box-sizing: border-box;
+  padding: 8px 16px;
+  max-width: 500px;
+  max-height: 300px;
+  color: white;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  border-radius: 8px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.modal > .buttons {
+  padding-top: 16px;
+}
+
+

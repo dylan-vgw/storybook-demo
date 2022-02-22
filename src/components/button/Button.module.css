@@ -1,21 +1,22 @@
 .button {
-  background-color: #EA4C89;
+  background-color: #ea4c89;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   display: inline-block;
   height: 40px;
   line-height: 20px;
   padding: 10px 16px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
 .button:hover {
   background-color: #eb7da7;
 }
 
-
 .button:active {
-  background-color: #F082AC;
+  background-color: #f082ac;
 }
