@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import {
   NumberOfGamesPlayedModalView,
   Props,
-} from "../../../components/modal/NumberOfGamesPlayedModal";
+} from "../src/components/modal/NumberOfGamesPlayedModal";
 
 export default {
   title: "Components/Modal",
