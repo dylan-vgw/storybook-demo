@@ -19,7 +19,7 @@
 
 
 ### Build a Jira Ticket
-
+1. Build out component and story together (should see UI updating live)
 
 
 ### Our Storybook component website

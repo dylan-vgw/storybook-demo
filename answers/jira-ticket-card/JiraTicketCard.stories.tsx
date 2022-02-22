@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import {
   JiraTicketCardView,
   Props,
-} from "../../../components/jira-ticket-card/JiraTicketCard";
+} from "../../src/components/jira-ticket-card/JiraTicketCard";
 
 export default {
   title: "Components/JiraTicketCard",

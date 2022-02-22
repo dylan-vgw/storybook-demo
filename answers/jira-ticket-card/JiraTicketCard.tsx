@@ -23,8 +23,25 @@ export interface Props {
   onTicketIdClick: () => void;
 }
 
-// Complete this component definition
-// export const JiraTicketCardView: React.FC<Props> = () => {}
+export const JiraTicketCardView: React.FC<Props> = ({
+  heading,
+  team,
+  priority,
+  ticketId,
+  avatarUrl,
+}) => {
+  return (
+    <div className="card">
+      <h1>{heading}</h1>
+      <h3>{team}</h3>
+      <section className="card-footer">
+        <span className="priority-icon">{getPriorityIcon(priority)}</span>
+        <a>{ticketId}</a>
+        <img src={avatarUrl} alt="avatar" />
+      </section>
+    </div>
+  );
+};
 
 export const JiraTicketCard = () => {
   const ticketId = "ATL-34223";
