@@ -5,11 +5,17 @@ import { Button, Props } from "../../../components/button/Button";
 export default {
   title: "Components/Button",
   component: Button,
+  parameters: {
+    actions: {
+      handles: ["mouseover", "click"],
+    },
+  },
 } as ComponentMeta<typeof Button>;
 
 const baseProps: Props = {
   text: "Click Me!",
   onClick: () => console.log('button was clicked'),
+  
 };
 
 const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;

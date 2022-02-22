@@ -14,8 +14,8 @@ const baseProps: Props = {
   title: 'Too many games for today',
   body: 'Wow thats a lot of games',
   gamesPlayedToday: 50,
-  onContinueClick: () => console.log('Accept Clicked'),
-  onStopPlayingClick: () => console.log('Cancel Clicked')
+  onContinueClick: () => console.log('Continue Clicked'),
+  onStopPlayingClick: () => console.log('Stop Playing clicked')
 };
 
 const Template: ComponentStory<typeof NumberOfGamesPlayedModalView> = (args) => (
